@@ -8,7 +8,7 @@ fs.writeFile('archivo.txt', "Hola Raul, este es un archivo nuevo, creado de mane
     }
 });
 
-let informacion = fs.readFileSync('info.txt', 'utf8');
-console.log(informacion);
+//let informacion = fs.readFileSync('info.txt', 'utf8');
+//console.log(informacion);
 
-fs.unlinkSync('archivo.txt');
+//fs.unlinkSync('archivo.txt');
